@@ -46,6 +46,11 @@ nav {
     background: #eee;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    border-bottom: 4px solid lightgrey;
+}
+
+.level:last-child {
+    border-bottom: none;
 }
 
 .placement {
