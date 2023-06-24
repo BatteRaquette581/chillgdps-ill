@@ -11,9 +11,8 @@ nav {
 }
 
 .placement {
+    padding-top: 19.5px;
     font-size: 66px;
-    float: left;
-    line-height: 150px;
     border-bottom: 4px solid lightgrey;
     border-right: 4px solid lightgrey;
 }
@@ -57,4 +56,8 @@ nav {
     display: flex;
     justify-content: center;
     border-bottom: 4px solid lightgrey;
+}
+
+.fps {
+    font-size: 23px;
 }
