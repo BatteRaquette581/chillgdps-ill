@@ -42,7 +42,7 @@ nav {
 }
 
 .level {
-    height: 150px;
+    height: 175px;
     background: #eee;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -56,22 +56,24 @@ nav {
 .placement {
     font-size: 66px;
     float: left;
-    line-height: 150px;
+    line-height: 175px;
 }
 
 .name {
     font-size: 45px;
-    line-height: 75px;
-    height: 75px;
+    line-height: 87px;
+    height: 87px;
+    background: rgb(245, 243, 243);
 }
 
 .author {
     font-size: 35px;
     margin-top: 0;
+    background: rgb(245, 243, 243);
 }
 
 .more {
     height: 100px;
-    margin-top: 25px;
+    margin-top: 37px;
     margin-left: 230px;
 }
