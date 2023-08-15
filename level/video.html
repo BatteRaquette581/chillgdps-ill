@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CILL - Video Viewer</title>
+</head>
+<body>
+    <video width="600" height="350" controls autoplay controlsList="nodownload" oncontextmenu="return false;">
+        <source id="video" />
+    </video>
+    <script defer>
+        document.getElementById("video").src = new URLSearchParams(window.location.search).get("v");
+    </script>
+</body>
+</html>
