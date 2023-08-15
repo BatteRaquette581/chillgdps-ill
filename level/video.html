@@ -6,11 +6,13 @@
     <title>CILL - Video Viewer</title>
 </head>
 <body>
-    <video width="600" height="350" controls autoplay controlsList="nodownload" oncontextmenu="return false;">
+    <video style="height: 90vh; text-align: center; display: block; margin: 0 auto;" id="container" controls autoplay muted controlsList="nodownload" oncontextmenu="return false;">
         <source id="video" />
+        Your browser does not support video tags.
     </video>
     <script defer>
         document.getElementById("video").src = new URLSearchParams(window.location.search).get("v");
     </script>
+    <noscript>Your browser does not support JavaScript!</noscript>
 </body>
 </html>
